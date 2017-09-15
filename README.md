@@ -65,6 +65,6 @@ For -a: [0, 8, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 For -r: [0.0, 0.88888, 0.0, 0.11111, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
-Each value in the output array corresponds to the frequency of one subgraph, as presented in the mapping below:
+Each value in the output array corresponds to the frequency of one subgraph, according to the mapping below:
 
 ![Mapping between frequencies and subgraphs](output.png?raw=true "Mapping between each frequency and its respective subgraph")
