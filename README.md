@@ -1,7 +1,7 @@
 # Subgraph Frequencies
 subgraph-frequencies v1.0
 
-Code that calculates the frequencies of all directed subgraphs involving three nodes from a network as described in http://ieeexplore.ieee.org/document/7839612/
+Code that calculates the frequencies of all directed subgraphs involving three nodes from a directed network as described in http://ieeexplore.ieee.org/document/7839612/
 
 ## Requirements
 
@@ -11,7 +11,7 @@ Python 3
 
 ## Usage
 
-Calculate the frequencies of all directed subgraphs from the network in the input file:
+Calculate the frequencies of all directed subgraphs from the directed network in the input file:
 
 ```
 python get_frequencies.py -a input.paj output.csv
@@ -32,7 +32,7 @@ Input:
 
 ## Example
 
-Consider the following co-occurrence network (the nodes represent the words and the directed edges connect adjacent words) obtained from the text sample 'to be or not to be that is the question':
+Consider the following co-occurrence network (the nodes represent the words and the arcs connect adjacent words) obtained from the text sample 'to be or not to be that is the question':
 
 <img src="co-occurrence.png" width="500">
 
