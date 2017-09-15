@@ -14,7 +14,7 @@ Python 3
 Calculate the frequencies of all directed subgraphs from the directed network in the input file:
 
 ```
-python get_frequencies.py -a input.paj output.csv
+python get_frequencies.py -a input.paj
 ```
 
 ## Options
